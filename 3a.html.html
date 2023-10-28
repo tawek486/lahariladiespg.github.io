@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lahari Ladies PG</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" type="text/css" href="3astyle.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body style="background-image: url(https://i.pinimg.com/originals/5b/b6/6a/5bb66a5b01bad5ee427f10064f675d9b.jpg);
+             background-size: cover;
+             background-repeat: no-repeat;
+             background-attachment: fixed;
+             background-position: center;"
+              body {
+                font-family: Arial, sans-serif;
+                background-color: #f0f0f0;
+            }
+    
+            header {
+                text-align: center;
+                padding: 20px;
+            }
+    
+            nav ul {
+                list-style: none;
+                padding: 0;
+                text-align: center;
+            }
+    
+            nav ul li {
+                display: inline;
+                margin: 0 15px;
+            }
+    
+            main {
+                padding: 20px;
+            }
+    
+            .image-slider {
+                text-align: center;
+            }
+    
+            .arrow-button {
+                font-size: 20px;
+            }
+    
+            p {
+                font-size: 16px;
+            }
+    
+            .contact-form-container {
+                background: #fff;
+                padding: 20px;
+                border-radius: 5px;
+            }
+    
+            form label, select, input, textarea, input[type="submit"] {
+                display: block;
+                margin: 10px 0;
+                width: 100%;
+                box-sizing: border-box;
+                padding: 10px;
+                font-size: 16px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+            }
+    
+            input[type="submit"] {
+                background: #007bff;
+                color: #fff;
+                cursor: pointer;
+            }
+    
+            footer {
+                text-align: center;
+                padding: 10px;
+                background: #333;
+                color: #fff;
+            }>
+    <header class="sliding-header">
+        <h1>Lahari Ladies PG</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main> 
+        <section id="home">
+            <h2>Home</h2>
+            <div id="image-slider">
+                <button id="prev-button" class="arrow-button">&#9664;</button>
+                <img id="slider-image" src="image1.jpg" alt="Image" class="border-image">
+                <button id="next-button" class="arrow-button">&#9654;</button>
+            </div>
+            <p>Discover your comfortable and secure home away from home at Lahari Ladies PG. We understand the unique needs of modern women and have created a welcoming space that combines safety, comfort, and convenience. Our PG is more than just a place to stay; it's a community of like-minded women who value a peaceful and hassle-free living experience.
+                </p><br><br>
+        </section>
+        <section id="about">
+            <h2>About</h2>
+            <div id="about-image-slider" class="image-slider">
+                <button id="about-prev-button" class="arrow-button">&#9664;</button>
+                <img id="about-slider-image" src="image1.jpg" alt="Image" class="border-image">
+                <button id="about-next-button" class="arrow-button">&#9654;</button>
+            </div>
+                <p>Our top priority is your well-being, and we take every measure to ensure your safety and satisfaction. Whether you're a student, a working professional, or someone new to the city, we have the perfect accommodation for you. Lahari Ladies PG is where you'll find a tranquil environment that allows you to focus on your studies, work, and personal growth without worrying about the hassles of daily living.
+                </p><br><br>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <div id="contact-image-slider" class="image-slider">
+                <button id="contact-prev-button" class="arrow-button">&#9664;</button>
+                <img id="contact-slider-image" src="image1.jpg" alt="Image" class="border-image">
+                <button id="contact-next-button" class="arrow-button">&#9654;</button>
+            </div>
+            <div class="contact-form-container">
+                <form class="contact-form" action="https://script.google.com/macros/s/AKfycbzHj1JBTuhIf-hLxtn8_1TrcaNFGRn-t141KRKDwIkcF8wQ78jF_i_FGaOZfw8idVY/exec" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="gender">Gender:</label>
+                    <select id="gender" name="gender">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="response">Response:</label>
+                    <textarea id="response" name="response" rows="4" required></textarea>
+                    
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+            <p>Address: 151/B, 4th Cross Rd, Sunkenahalli, Gavipuram Extn, Hanumantha Nagar, Basavangudi, Bengaluru, Karnataka 560019,<br> or Copy paste this on your google maps : 12.943534733356321, 77.56539338339536</p><br><br>
+            <p>Ph.No: 9008720408 / 8073396152</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Lahari Ladies PG</p>
+    </footer>
+    <script>
+        const images = ["amazing_asiatic_landscape_art-wallpaper-1024x576.jpg", "assassins_creed_mirage_video_game_2023-wallpaper-1024x576.jpg", "old_sailing_ships_drawing-wallpaper-1024x576.jpg"];
+        let currentIndex = 0;
+        const imageElement = document.getElementById("slider-image");
+
+        function showImage(index) {
+            imageElement.src = images[index];
+        }
+
+        function nextImage() {
+            currentIndex = (currentIndex + 1) % images.length;
+            showImage(currentIndex);
+        }
+
+        function prevImage() {
+            currentIndex = (currentIndex - 1 + images.length) % images.length;
+            showImage(currentIndex);
+        }
+
+        showImage(currentIndex);
+
+        document.getElementById("prev-button").addEventListener("click", prevImage);
+        document.getElementById("next-button").addEventListener("click", nextImage);
+        
+        const aboutImages = ["assassins_creed_mirage_video_game_2023-wallpaper-1024x576.jpg", "old_sailing_ships_drawing-wallpaper-1024x576.jpg", "amazing_asiatic_landscape_art-wallpaper-1024x576.jpg"];
+        const contactImages = ["old_sailing_ships_drawing-wallpaper-1024x576.jpg", "amazing_asiatic_landscape_art-wallpaper-1024x576.jpg", "assassins_creed_mirage_video_game_2023-wallpaper-1024x576.jpg"];
+        let aboutIndex = 0;
+        let contactIndex = 0;
+        const aboutImageElement = document.getElementById("about-slider-image");
+        const contactImageElement = document.getElementById("contact-slider-image");
+
+        function showAboutImage() {
+            aboutImageElement.src = aboutImages[aboutIndex];
+        }
+
+        function showContactImage() {
+            contactImageElement.src = contactImages[contactIndex];
+             }
+
+        function nextAboutImage() {
+            aboutIndex = (aboutIndex + 1) % aboutImages.length;
+            showAboutImage();
+        }
+
+        function prevAboutImage() {
+            aboutIndex = (aboutIndex - 1 + aboutImages.length) % aboutImages.length;
+            showAboutImage();
+        }
+
+        function nextContactImage() {
+            contactIndex = (contactIndex + 1) % contactImages.length;
+            showContactImage();
+        }
+
+        function prevContactImage() {
+            contactIndex = (contactIndex - 1 + contactImages.length) % contactImages.length;
+            showContactImage();
+        }
+
+        showAboutImage();
+        showContactImage();
+
+        document.getElementById("about-prev-button").addEventListener("click", prevAboutImage);
+        document.getElementById("about-next-button").addEventListener("click", nextAboutImage);
+        document.getElementById("contact-prev-button").addEventListener("click", prevContactImage);
+        document.getElementById("contact-next-button").addEventListener("click", nextContactImage);
+
+        const headerElement = document.querySelector('.sliding-header');
+        window.addEventListener('load', () => {
+    headerElement.style.top = '0';
+});
+         
+document.getElementById("send-email-button").addEventListener("click", function () {
+            const name = document.getElementById("name").value;
+            const email = document.getElementById("email").value;
+            const message = document.getElementById("message").value;
+            
+            const formData = new FormData();
+            formData.append("name", name);
+            formData.append("email", email);
+            formData.append("message", message);
+            
+            fetch("https://script.google.com/macros/s/AKfycbzHj1JBTuhIf-hLxtn8_1TrcaNFGRn-t141KRKDwIkcF8wQ78jF_i_FGaOZfw8idVY/exec", {
+                method: "POST",
+                body: formData,
+            })
+            .then(response => response.text())
+            .then(data => {
+                alert(data);
+            })
+            .catch(error => {
+                console.error(error);
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,251 @@
+         body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .image-slider {
+            text-align: center;
+        }
+
+        .arrow-button {
+            font-size: 20px;
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+        .contact-form-container {
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        form label, select, input, textarea, input[type="submit"] {
+            display: block;
+            margin: 10px 0;
+            width: 100%;
+            box-sizing: border-box;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        input[type="submit"] {
+            background: #007bff;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #333;
+            color: #fff;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-image: url(https://i.pinimg.com/originals/5b/b6/6a/5bb66a5b01bad5ee427f10064f675d9b.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            font-size: 16px;
+        }
+        
+        /* Add more responsive styles as needed */
+        @media (max-width: 768px) {
+            /* Styles for tablets and smaller screens */
+            body {
+                font-size: 14px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            /* Styles for mobile phones */
+            body {
+                font-size: 12px;
+            }
+        }
+
+        header {
+            position: relative;
+            top: -100px;
+            transition: top 0.5s ease; 
+        }
+
+        #image-slider {
+            text-align: center;
+            padding: 20px;
+        }
+
+        #slider-image {
+            max-width: 100%; 
+        }
+
+        .image-slider {
+            text-align: center; 
+            padding: 20px; 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .arrow-button {
+            font-size: 30px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            vertical-align: middle;
+            margin: 0 10px;
+        }
+
+        header {
+            background-image: url(https://images.unsplash.com/photo-1517495306984-f84210f9daa8?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8fA%3D%3D);
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: black;
+            text-align: center;
+            padding: 20px;
+            font-size: 30px;
+        }
+        
+        p {
+            text-align: center;
+            padding: 10px;
+            margin: 0;
+            font-size: 30px;
+            font: bolder;
+            font-family: Arial Rounded MT Bold;
+        }
+
+        h2 {
+            text-align: center;
+            padding: 0;
+            margin: 0;
+            font-size: 50px;
+            font-family: Bookman Old Style;
+        }
+
+        nav ul {
+            list-style: none;
+            background-color: #960c0c;
+            text-align: center;
+            padding: 10px;
+        }
+        
+        nav li {
+            display: inline;
+            margin: 10px;
+        }
+        
+        nav a {
+            text-decoration: none;
+            color: white;
+        }
+        
+        main {
+            padding: 20px;
+        }
+        
+        footer {
+            background-color: #960c0c;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .arrow-button {
+            font-size: 24px;
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+
+        .arrow-button {
+            font-size: 30px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            vertical-align: middle;
+            margin: 0 10px;
+        }
+
+        #image-slider {
+            text-align: center;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #about-slider-image,
+        #contact-slider-image {
+            max-width: 100%;
+            border: none; 
+            outline: none; 
+        }
+
+        .contact-form-container {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .contact-form {
+            display: inline-block;
+            text-align: left;
+        }
+
+        .contact-form label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        .contact-form input[type="text"],
+        .contact-form input[type="email"],
+        .contact-form select,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .contact-form input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
